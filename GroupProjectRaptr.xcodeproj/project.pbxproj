@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E8865AC81B32116800AA89E8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8865AC71B32116800AA89E8 /* CameraViewController.swift */; };
+		E8865ACA1B32156600AA89E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8865AC91B32156600AA89E8 /* LoginViewController.swift */; };
+		E8865ACC1B32157F00AA89E8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8865ACB1B32157F00AA89E8 /* SignupViewController.swift */; };
 		E8E480DE1B31F6A50030618E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E480DD1B31F6A50030618E /* AppDelegate.swift */; };
 		E8E480E01B31F6A50030618E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E480DF1B31F6A50030618E /* ViewController.swift */; };
 		E8E480E31B31F6A50030618E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E480E11B31F6A50030618E /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		E8865AC71B32116800AA89E8 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E8865AC91B32156600AA89E8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E8865ACB1B32157F00AA89E8 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		E8E480D81B31F6A50030618E /* GroupProjectRaptr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupProjectRaptr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E480DC1B31F6A50030618E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8E480DD1B31F6A50030618E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,9 +85,11 @@
 		E8E480DA1B31F6A50030618E /* GroupProjectRaptr */ = {
 			isa = PBXGroup;
 			children = (
+				E8E480E11B31F6A50030618E /* Main.storyboard */,
 				E8E480DF1B31F6A50030618E /* ViewController.swift */,
 				E8865AC71B32116800AA89E8 /* CameraViewController.swift */,
-				E8E480E11B31F6A50030618E /* Main.storyboard */,
+				E8865AC91B32156600AA89E8 /* LoginViewController.swift */,
+				E8865ACB1B32157F00AA89E8 /* SignupViewController.swift */,
 				E8E480DB1B31F6A50030618E /* Supporting Files */,
 			);
 			path = GroupProjectRaptr;
@@ -219,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8865ACA1B32156600AA89E8 /* LoginViewController.swift in Sources */,
 				E8E480E01B31F6A50030618E /* ViewController.swift in Sources */,
+				E8865ACC1B32157F00AA89E8 /* SignupViewController.swift in Sources */,
 				E8E480DE1B31F6A50030618E /* AppDelegate.swift in Sources */,
 				E8865AC81B32116800AA89E8 /* CameraViewController.swift in Sources */,
 			);

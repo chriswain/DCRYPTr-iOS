@@ -10,6 +10,9 @@ import UIKit
 
 class CameraViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
 
+    @IBOutlet weak var cameraShot: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,14 +25,31 @@ class CameraViewController: UIViewController, UINavigationControllerDelegate, UI
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func takePicture(sender: UIButton) {
+        
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        picker.sourceType = .Camera
+        
+        presentViewController(picker, animated: true, completion: nil)
+        
     }
-    */
+
+    @IBAction func takePicFromLib(sender: UIButton) {
+        
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        picker.sourceType = .PhotoLibrary
+        
+        presentViewController(picker, animated: true, completion: nil)
+        
+        
+    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+        
+        cameraShot.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+        dismissViewControllerAnimated(false, completion: nil)
+    }
 
 }
