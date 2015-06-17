@@ -23,7 +23,9 @@ class LoginViewController: UIViewController {
     
     @IBAction func enterLoginButton(sender: UIButton) {
         
-        storyboard?.instantiateViewControllerWithIdentifier("cameraVC")
+        var cmv = storyboard?.instantiateViewControllerWithIdentifier("cameraVC") as! CameraViewController
+        presentViewController(cmv, animated: true, completion: nil)
+       
     }
 
    

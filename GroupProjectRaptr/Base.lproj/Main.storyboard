@@ -12,6 +12,7 @@
             <string>Coalition</string>
             <string>Coalition</string>
             <string>Coalition</string>
+            <string>Coalition</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -115,7 +116,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4s-ax-WKP">
-                                <rect key="frame" x="7" y="492" width="100" height="30"/>
+                                <rect key="frame" x="8" y="550" width="100" height="30"/>
                                 <fontDescription key="fontDescription" name="Coalition" family="Coalition" pointSize="15"/>
                                 <state key="normal" title="Camera">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -125,7 +126,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tio-Wg-uHg">
-                                <rect key="frame" x="384" y="492" width="200" height="30"/>
+                                <rect key="frame" x="384" y="550" width="200" height="30"/>
                                 <fontDescription key="fontDescription" name="Coalition" family="Coalition" pointSize="15"/>
                                 <state key="normal" title="Photo Library">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -134,8 +135,20 @@
                                     <action selector="takePicFromLib:" destination="4rH-yc-0Iv" eventType="touchUpInside" id="Fja-A4-kPq"/>
                                 </connections>
                             </button>
+                            <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="input answer" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9Gq-qy-DVE">
+                                <rect key="frame" x="225" y="87" width="150" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G2C-y8-Vwu">
+                                <rect key="frame" x="150" y="28" width="300" height="30"/>
+                                <fontDescription key="fontDescription" name="Coalition" family="Coalition" pointSize="15"/>
+                                <state key="normal" title="Send Photo to DCRYPTr!!!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hqi-vB-CfZ">
-                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                                <rect key="frame" x="150" y="164" width="300" height="300"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
