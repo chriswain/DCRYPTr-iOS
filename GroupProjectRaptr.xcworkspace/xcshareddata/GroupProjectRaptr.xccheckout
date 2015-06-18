@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0C66B75E-4F3E-4C51-B729-6B1F591C5285</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GroupProjectRaptr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>27EB62FFD561BE7B3A12A5316740B86BFAB516E3</key>
+		<string>https://github.com/chriswain/DCRYPTr-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GroupProjectRaptr.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>27EB62FFD561BE7B3A12A5316740B86BFAB516E3</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chriswain/DCRYPTr-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>27EB62FFD561BE7B3A12A5316740B86BFAB516E3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>27EB62FFD561BE7B3A12A5316740B86BFAB516E3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DCRYPTr-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
